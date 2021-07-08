@@ -225,7 +225,10 @@
 	}
 	else
 	{
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wbad-function-cast"
         value = (BOOL)CFBooleanGetValue((CFBooleanRef)plr);
+#pragma clang diagnostic pop
         CFRelease(plr);
     }
     return value;
