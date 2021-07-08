@@ -114,7 +114,10 @@ static NSString *const SUUpdatePermissionPromptTouchBarIndentifier = @"" SPARKLE
 
 - (NSString *)promptDescription
 {
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wformat-non-iso"
     return [NSString stringWithFormat:SULocalizedString(@"Should %1$@ automatically check for updates? You can always check for updates manually from the %1$@ menu.", nil), [self.host name]];
+#pragma clang diagnostic pop
 }
 
 - (IBAction)toggleMoreInfo:(id)__unused sender

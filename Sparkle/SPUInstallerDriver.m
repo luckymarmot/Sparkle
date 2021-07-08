@@ -418,9 +418,12 @@
     
     NSString *installationType = self.updateItem.installationType;
     assert(installationType != nil);
-    
+
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wformat-non-iso"
     // The installer launcher could be in a XPC service, so we don't want to do localization in there
     NSString *authorizationPrompt = [NSString stringWithFormat:SULocalizedString(@"%1$@ wants to update.", nil), self.host.name];
+#pragma clang diagnostic pop
     [installerLauncher launchInstallerWithHostBundlePath:hostBundlePath authorizationPrompt:authorizationPrompt installationType:installationType allowingDriverInteraction:driverAllowsInteraction allowingUpdaterInteraction:!preventsInstallerInteraction completion:^(SUInstallerLauncherStatus result) {
         dispatch_async(dispatch_get_main_queue(), ^{
             retrievedLaunchStatus = YES;
