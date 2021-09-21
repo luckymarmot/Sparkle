@@ -80,6 +80,8 @@ void SPUDownloadURLWithRequest(NSURLRequest * request, void (^completionBlock)(S
                 } else {
                     completionBlock(downloadData, nil);
                 }
+            } else {
+                completionBlock(nil, error);
             }
         });
     }];
