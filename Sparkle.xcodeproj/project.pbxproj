@@ -3778,6 +3778,153 @@
 			};
 			name = Release;
 		};
+		4C75791F2834CD6A00692845 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA1941CC0D94A70100DD942E /* ConfigCommonRelease.xcconfig */;
+			buildSettings = {
+			};
+			name = Beta;
+		};
+		4C7579202834CD6A00692845 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA1941D10D94A70100DD942E /* ConfigFramework.xcconfig */;
+			buildSettings = {
+			};
+			name = Beta;
+		};
+		4C7579212834CD6A00692845 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA1941D10D94A70100DD942E /* ConfigFramework.xcconfig */;
+			buildSettings = {
+			};
+			name = Beta;
+		};
+		4C7579222834CD6A00692845 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA1941CE0D94A70100DD942E /* ConfigRelaunch.xcconfig */;
+			buildSettings = {
+				ENABLE_HARDENED_RUNTIME = YES;
+			};
+			name = Beta;
+		};
+		4C7579232834CD6A00692845 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 726E07C11CAF1E79001A286B /* ConfigInstallerLauncher.xcconfig */;
+			buildSettings = {
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = InstallerLauncher/Info.plist;
+			};
+			name = Beta;
+		};
+		4C7579242834CD6A00692845 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 724BB37E1D31D1EA005D534A /* ConfigInstallerConnection.xcconfig */;
+			buildSettings = {
+				ENABLE_HARDENED_RUNTIME = YES;
+			};
+			name = Beta;
+		};
+		4C7579252834CD6A00692845 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 724BB3A41D3338C8005D534A /* ConfigInstallerStatus.xcconfig */;
+			buildSettings = {
+				ENABLE_HARDENED_RUNTIME = YES;
+			};
+			name = Beta;
+		};
+		4C7579262834CD6A00692845 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 728638EE1CAF589C00783084 /* ConfigDownloader.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+			};
+			name = Beta;
+		};
+		4C7579272834CD6A00692845 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA1941CD0D94A70100DD942E /* ConfigTestApp.xcconfig */;
+			buildSettings = {
+			};
+			name = Beta;
+		};
+		4C7579282834CD6A00692845 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 726E4A281C86CAB500C57C6A /* ConfigTestAppHelper.xcconfig */;
+			buildSettings = {
+			};
+			name = Beta;
+		};
+		4C7579292834CD6A00692845 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7205C46D1E13245600E370AE /* ConfigUnitTestRelease.xcconfig */;
+			buildSettings = {
+				SWIFT_VERSION = 5.0;
+			};
+			name = Beta;
+		};
+		4C75792A2834CD6A00692845 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D06E8F10FD68D21005AE3F6 /* ConfigBinaryDelta.xcconfig */;
+			buildSettings = {
+			};
+			name = Beta;
+		};
+		4C75792B2834CD6A00692845 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72D954B01CBB41E2006F28BD /* ConfigSparkleTool.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+			};
+			name = Beta;
+		};
+		4C75792C2834CD6A00692845 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 721C24571CB754E8005440CB /* ConfigInstallerProgress.xcconfig */;
+			buildSettings = {
+			};
+			name = Beta;
+		};
+		4C75792D2834CD6A00692845 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Beta;
+		};
+		4C75792E2834CD6A00692845 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Beta;
+		};
+		4C75792F2834CD6A00692845 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Beta;
+		};
+		4C7579302834CD6A00692845 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7205C46F1E13255900E370AE /* ConfigUITestRelease.xcconfig */;
+			buildSettings = {
+			};
+			name = Beta;
+		};
+		4C7579312834CD6A00692845 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7205C4551E13054900E370AE /* ConfigGenerateAppcastRelease.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "-";
+			};
+			name = Beta;
+		};
+		4C7579322834CD6A00692845 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA1E281522B64549004AA304 /* bsdiff-Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Beta;
+		};
 		5D06E8D20FD68C7D005AE3F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5D06E8F10FD68D21005AE3F6 /* ConfigBinaryDelta.xcconfig */;
@@ -4129,6 +4276,7 @@
 				1420DF4B1962329200203BB0 /* Debug */,
 				149B78611B7D398100D7D62C /* Coverage */,
 				1420DF4C1962329200203BB0 /* Release */,
+				4C75792E2834CD6A00692845 /* Beta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4139,6 +4287,7 @@
 				14732BC71960F69300593899 /* Debug */,
 				149B78601B7D398100D7D62C /* Coverage */,
 				14732BC81960F69300593899 /* Release */,
+				4C75792D2834CD6A00692845 /* Beta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4149,6 +4298,7 @@
 				14950061195FB89500BC5B5B /* Debug */,
 				149B78621B7D398100D7D62C /* Coverage */,
 				14950062195FB89500BC5B5B /* Release */,
+				4C75792F2834CD6A00692845 /* Beta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4159,6 +4309,7 @@
 				1DEB91AE08733DA50010E9CD /* Debug */,
 				149B785B1B7D398100D7D62C /* Coverage */,
 				1DEB91AF08733DA50010E9CD /* Release */,
+				4C7579202834CD6A00692845 /* Beta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4169,6 +4320,7 @@
 				1DEB91B208733DA50010E9CD /* Debug */,
 				149B785A1B7D398100D7D62C /* Coverage */,
 				1DEB91B308733DA50010E9CD /* Release */,
+				4C75791F2834CD6A00692845 /* Beta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4179,6 +4331,7 @@
 				5D06E8D20FD68C7D005AE3F6 /* Debug */,
 				149B785E1B7D398100D7D62C /* Coverage */,
 				5D06E8D30FD68C7D005AE3F6 /* Release */,
+				4C75792A2834CD6A00692845 /* Beta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4189,6 +4342,7 @@
 				612279DB0DB5470300AB99EA /* Debug */,
 				149B785D1B7D398100D7D62C /* Coverage */,
 				612279DC0DB5470300AB99EA /* Release */,
+				4C7579292834CD6A00692845 /* Beta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4199,6 +4353,7 @@
 				61B5F90609C4CEE300B25A18 /* Debug */,
 				149B785C1B7D398100D7D62C /* Coverage */,
 				61B5F90709C4CEE300B25A18 /* Release */,
+				4C7579272834CD6A00692845 /* Beta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4209,6 +4364,7 @@
 				7205C4421E13049400E370AE /* Debug */,
 				7205C4431E13049400E370AE /* Coverage */,
 				7205C4441E13049400E370AE /* Release */,
+				4C7579312834CD6A00692845 /* Beta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4219,6 +4375,7 @@
 				721C24531CB753E7005440CB /* Debug */,
 				721C24541CB753E7005440CB /* Coverage */,
 				721C24551CB753E7005440CB /* Release */,
+				4C75792C2834CD6A00692845 /* Beta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4229,6 +4386,7 @@
 				724BB3791D31D0B7005D534A /* Debug */,
 				724BB37A1D31D0B7005D534A /* Coverage */,
 				724BB37B1D31D0B7005D534A /* Release */,
+				4C7579242834CD6A00692845 /* Beta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4239,6 +4397,7 @@
 				724BB3A01D333832005D534A /* Debug */,
 				724BB3A11D333832005D534A /* Coverage */,
 				724BB3A21D333832005D534A /* Release */,
+				4C7579252834CD6A00692845 /* Beta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4249,6 +4408,7 @@
 				726B2B641C645FC900388755 /* Debug */,
 				726B2B651C645FC900388755 /* Coverage */,
 				726B2B661C645FC900388755 /* Release */,
+				4C7579302834CD6A00692845 /* Beta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4259,6 +4419,7 @@
 				726E07BA1CAF08D6001A286B /* Debug */,
 				726E07BB1CAF08D6001A286B /* Coverage */,
 				726E07BC1CAF08D6001A286B /* Release */,
+				4C7579232834CD6A00692845 /* Beta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4269,6 +4430,7 @@
 				726E07FC1CAF37BD001A286B /* Debug */,
 				726E07FD1CAF37BD001A286B /* Coverage */,
 				726E07FE1CAF37BD001A286B /* Release */,
+				4C7579262834CD6A00692845 /* Beta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4279,6 +4441,7 @@
 				726E4A231C86C88F00C57C6A /* Debug */,
 				726E4A241C86C88F00C57C6A /* Coverage */,
 				726E4A251C86C88F00C57C6A /* Release */,
+				4C7579282834CD6A00692845 /* Beta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4289,6 +4452,7 @@
 				72A5D5A11D6927730009E5AC /* Debug */,
 				72A5D5A21D6927730009E5AC /* Coverage */,
 				72A5D5A31D6927730009E5AC /* Release */,
+				4C7579212834CD6A00692845 /* Beta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4299,6 +4463,7 @@
 				72B398D71D3D879400EE297F /* Debug */,
 				72B398D81D3D879400EE297F /* Coverage */,
 				72B398D91D3D879400EE297F /* Release */,
+				4C7579222834CD6A00692845 /* Beta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4309,6 +4474,7 @@
 				72D954AC1CBB415C006F28BD /* Debug */,
 				72D954AD1CBB415C006F28BD /* Coverage */,
 				72D954AE1CBB415C006F28BD /* Release */,
+				4C75792B2834CD6A00692845 /* Beta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4319,6 +4485,7 @@
 				EA1E281022B64522004AA304 /* Debug */,
 				EA1E281122B64522004AA304 /* Coverage */,
 				EA1E281222B64522004AA304 /* Release */,
+				4C7579322834CD6A00692845 /* Beta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
