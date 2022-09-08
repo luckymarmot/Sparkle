@@ -2858,6 +2858,7 @@
 		};
 		721D8A841D498F7A0032E472 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
 			files = (
 			);
@@ -2867,7 +2868,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"$SRCROOT/Configurations/set-agent-signing.sh\"";
+			shellScript = "\"$SRCROOT/Configurations/set-agent-signing.sh\"\n";
 		};
 		729BB3CC1D501A8F007C4276 /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
