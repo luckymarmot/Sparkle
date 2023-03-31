@@ -2554,7 +2554,7 @@
 			attributes = {
 				CLASSPREFIX = SU;
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 1410;
+				LastUpgradeCheck = 1430;
 				ORGANIZATIONNAME = "Sparkle Project";
 				TargetAttributes = {
 					612279D80DB5470200AB99EA = {
@@ -3714,6 +3714,17 @@
 				DEAD_CODE_STRIPPING = YES;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Weverything",
+					"-Wno-unused-macros",
+					"-Wno-gnu-statement-expression",
+					"-Wno-arc-repeated-use-of-weak",
+					"-Wno-auto-import",
+					"-Wno-gnu-zero-variadic-macro-arguments",
+					"$(WARNING_CFLAGS_EXTRA)",
+					"-Wno-declaration-after-statement",
+				);
 			};
 			name = Coverage;
 		};
@@ -3798,6 +3809,17 @@
 				DEAD_CODE_STRIPPING = YES;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Weverything",
+					"-Wno-unused-macros",
+					"-Wno-gnu-statement-expression",
+					"-Wno-arc-repeated-use-of-weak",
+					"-Wno-auto-import",
+					"-Wno-gnu-zero-variadic-macro-arguments",
+					"$(WARNING_CFLAGS_EXTRA)",
+					"-Wno-declaration-after-statement",
+				);
 			};
 			name = Debug;
 		};
@@ -3810,6 +3832,17 @@
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Weverything",
+					"-Wno-unused-macros",
+					"-Wno-gnu-statement-expression",
+					"-Wno-arc-repeated-use-of-weak",
+					"-Wno-auto-import",
+					"-Wno-gnu-zero-variadic-macro-arguments",
+					"$(WARNING_CFLAGS_EXTRA)",
+					"-Wno-declaration-after-statement",
+				);
 			};
 			name = Release;
 		};
@@ -3821,6 +3854,17 @@
 				DEAD_CODE_STRIPPING = YES;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Weverything",
+					"-Wno-unused-macros",
+					"-Wno-gnu-statement-expression",
+					"-Wno-arc-repeated-use-of-weak",
+					"-Wno-auto-import",
+					"-Wno-gnu-zero-variadic-macro-arguments",
+					"$(WARNING_CFLAGS_EXTRA)",
+					"-Wno-declaration-after-statement",
+				);
 			};
 			name = Beta;
 		};
